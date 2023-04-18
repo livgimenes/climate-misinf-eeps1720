@@ -1,6 +1,13 @@
 import requests
 import requests.auth
 import pandas as pd
+import re
+import nltk
+
+
+# You might have to do pip install emoji
+import emoji
+
 
 
 #### Requesting a token ####
@@ -71,10 +78,11 @@ def get_all_of_subreddit(subreddit_lst):
         df = get_subreddit_posts(url)
         all.append(df)
     all_dfs = pd.concat(all)
-    all_dfs.to_csv("data/all_subreddits.csv", index=False)
+    all_dfs.to_csv("data/unclean_subreddits.csv", index=False)
     return all_dfs
 
 result = get_all_of_subreddit(subreddit)
+
 print(result.head())
     
    
@@ -82,4 +90,38 @@ print(result.head())
 
 ### Expand the code for getting the data with the search for specific subreddits #
 
-# These are the subreddits that we want to use: 
+#### Cleaning the data ####'
+
+
+def remove_emojis(text):
+    emoji_pattern = re.compile("["
+        u"\U0001F600-\U0001F64F"  # emoticons
+        u"\U0001F300-\U0001F5FF"  # symbols & pictographs
+        u"\U0001F680-\U0001F6FF"  # transport & map symbols
+        u"\U0001F1E0-\U0001F1FF"  # flags (iOS)
+                           "]+", flags=re.UNICODE)
+    return emoji_pattern.sub(r'', text)
+
+def clean_body(df):
+
+    print("this is the body before cleaning", df['body'])
+
+    #removing unecessary space
+    df['body'] = df['body'].apply(lambda x: " ".join(x.split()))
+
+    # make all text lowercase
+    df['body'] = df['body'].apply(lambda x: x.lower())
+
+    # remove punctuation
+    df['body'] = df['body'].apply(lambda x: re.sub('[^a-zA-Z0-9\s]', '', x))
+    print(list(df['body']))
+
+    #remove emojis
+    df['body'] = df['body'].apply(lambda x: remove_emojis(x))
+
+    #saving the clean data
+    return df
+
+body = clean_body(result)
+body.to_csv("data/clean_subreddits.csv", index=False)
+
