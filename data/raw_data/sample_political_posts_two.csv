@@ -1,0 +1,258 @@
+id,subreddit,title,author,url,selftext,score,num_comments,created_utc
+mrwcxj,LibertarianSocialism,Is Industrial Engineering useful to us?,hiimirony,https://www.reddit.com/r/LibertarianSocialism/comments/mrwcxj/is_industrial_engineering_useful_to_us/,"Us being libleft in general--I'm not a fan of the gatekeeping we do sometimes. The oligarchs and mega-nations are too powerful for us to spend so much time infighting over relatively minute doctrinal differences.
+
+Anyway. Soap box over. According to [wikipedia](https://en.m.wikipedia.org/wiki/Industrial_engineering): ""Industrial engineering is an engineering profession that is concerned with the optimization of complex processes, systems, or organizations by developing, improving and implementing integrated systems of people, money, knowledge, information and equipment."" Which sounds really dope for a couple reasons.
+
+- It (potentially) offers more pragmatic planning methods that steps away from economic dogma steps towards real world applications.
+- It might scale better to the various decentralized decision making schemes we espouse.
+- A lot of the theory we have is pretty untested afaict and hard to test anyway. Learning and then adapting ""Lean production"" for example would be indisbuteably grounded in reality
+- ~~Picking up a bit of Industrial Engineering would probably be good for my Electrical Engineering career anyway, lol.~~
+
+I have developed a caveat from reading a bit and also working under corporate beaureaucrats 🤮 that use similar planning methods to pretend they don't suck... **At a minimum they need to understand the actual processes they are trying to optimize before they start applying their methods.**
+
+Point is, as far as formal literature for modern economic-ish planning/optimization that has been tested in the real world. Industrial Engineering is the closest I have found. I'm not saying I shouldn't go read things like Parecon, council communism, or CNT-FAI, etc. Just that learning IE will probably be helpful in the effort of building ourselves up.
+
+...What do y'all think?",4,15,1618549751.0
+8ueiqj,Anarchism,Never ever turn off your phone: rethinking security culture in the era of big data analysis,soccerskyman,https://www.reddit.com/r/Anarchism/comments/8ueiqj/never_ever_turn_off_your_phone_rethinking/,"Saw this on Tumblr and found it interesting. What do you guys think?:
+
+Back in the 80′s if you were a pissed off anarchist that wanted to burn down a building, you probably checked your home for listening devices and made a plan. If you were the same kind of pissed off anarchist in the late 90′s, you  turned off your phone and encrypted your online traffic. In the 2020′s we’re gonna have to change our strategies once again. Intelligence gathering has adapted and so we must adapt too.
+
+To get a head start at this, let’s look at how big data analysis is being used. To do this, we’ll need to talk about 3 things: *metadata, patterns and networks.* Those sound boring and complicated but I’m not a techy and I won’t bore you with tech language, I’ll keep it as easy as I can.
+
+**Metadata:** In the context of online activity, ‘content’ means ‘the message you send’ and ‘metadata’ means ‘everything other than the content’. So, for example, if you send your friend a text about lunch, the content might be *“Let’s go out for lunch”* and the metadata might be *“Message send at 01/04/2018 11.32 from phone 0478239055 to phone 079726823 using Signal”*.
+
+This information is registered by your phone even if the app encrypts your actual message. Your metadata is very badly protected by technology and very badly protected by the law. No matter which country you are in, most of your metadata if freely available to intelligence agencies regardless of whether you are a suspect in anything.
+
+**Patterns:** Whether you realize it or not, your metadata has a pattern. If you have a daily job you might have a very consistent pattern, if you do not your pattern might be more flexible but you have a pattern. If someone wanted to know the rhythm of your day, they could very easily do so because your pattern is in the metadata.
+
+For example: Maybe you use the wifi at your favourite bar on most Sunday nights until about midnight, you wake up around 10 AM and check your Signal, you use your public transport card to get to class every Monday afternoon and you spend on average 1 hour on Tumblr twice a day. All this is part of your pattern.
+
+**Networks:** You have online networks. Your facebook friends, the people in your phone adress book, the dropbox you share with coworkers, everyone who bought online tickets to the same punk band you attended, the people using the same wifi points as you. Take your networks, combine them with other people’s networks, and *clusters* reveal themselves. Your work community, your family, your activist scene, etc.
+
+If you are in an anarchist community that will probably be abundantly clear from all your minor network connections like going to the same band and knowing the same people as other anarchists. Even if you never liked an anarchist facebook page or pressed ‘going’ on an anarchist facebook event, your network is hard to hide.
+
+**Now, let’s say you commit a crime,**
+
+the kind that would result in some serious research. Let’s say that on Sunday night 3 AM, you are your friends go out and burn down a nazi’s house. (Of course I would never advice any of you to do such a thing.) It’s obvious that anarchists did it but there are no other clues. You use traditional style security culture: you burn your notes, you are careful not to communicate about your plans near technology and you do not leave physical traces.
+
+But because you commited the crime that night, your *metadata* will vary strongly from your usual rhythm: you stay at your usual bar until 2 AM to wait for your friends, you do not wake up at 10 AM in the morning so you do not check your Signal or Tumblr until 1 PM. You do not go to class. Your metadata pattern is very different from your usual pattern. The metadata patterns of your friends are different too. If one of you is clumsy, they might generate a super suspicious metadata signal like a phone being switched off at 2.30 AM and activated at 4AM. You wouldn’t be the first.
+
+If I wanted to solve this crime using data analysis, what I would do is:
+
+* let a piece of software run a pattern analysis of the local anarchist scene to generate the 300 people most connected to the anarchist scene.
+* let a second piece of software analyse the metadata patterns of those 300 people over the last months and identify the biggest metadata variations around Sunday night as well as very suspicious metadata activity
+* Illiminate pattern variations with an obvious cause or an obvious alibi (people who are on vacation, people who are in the hospital, people who lost their job, etc).
+* Do indepth research into the ones that remain.
+
+Which is how, out of a massive amount of people that I couldn’t possible all listen to at the same time, I could quickly identify a few to monitor closely. This is how I could find and catch you.
+
+**So, now what?**
+
+If traditional security culture doesn’t protect us as well as it used to, how do we adapt? Well, I don’t have all the answers but for a start, I’d say: know your network + know your pattern.
+
+In the case of the example above: leave the bar at midnight, return home and put your phone on your bedside table. Check the apps you check before going to bed and set your alarm to 10AM. Return to the bar without your phone. Wake up at 10AM and check your Signal. Drag yourself to class or ask a comrade to make the trip with your travel card and do not use technology in your home while the comrade is taking your travel card to class. Stick to your pattern. Never *ever* turn off your phone.
+
+You might also be able to manipulate your network but that seems much harder to do. Not having a smartphone and dropping out of all social activity online is  a big commitment. Knowing your data pattern and making sure your data pattern doesn’t look out of the ordinary? Much less commitment.
+
+Some of the old rules will still apply: don’t talk about a crime around devices with microphones, don’t brag after a succesful action, etc. Other rules, like ‘turn off your phone when planning an illegal act’ need to change because their metada looks too out of the ordinary. No one switches off their phone anymore. We look suspicious as fuck when we do.
+
+This is just one idea on how we could update our security culture. There are probably other people with other, better ideas about updating our security culture. If we start the conversation, we may get somewhere.
+
+**Finally: we need to keep adapting.**
+
+As technology changes, more information is becoming available, including data we have very little control over. Smart-tv’s and ads in public spaces that listen to every word we say and the tone of our voice when we say it are examples. Data analysis projects are currently using license plate reading software on security footage to map the travel patterns of cars. A lot suggests they may soon be ready to do the same with face recognition, at which point the presence of our face in public space becomes part of our metadata. More information means more accurate data analysis. Our metadata may soon be too vast annd too complex to completely map and mirror. Which means we will need to adapt our counter measures if you want to hide something.
+
+How do we keep it all under the radar? I don’t know. But let’s try to figure this shit out. These are some first thoughts about what security culture should look like in the age of modern big data analysis and I’d be very happy for any insights from comrades that have some thoughts on this.
+
+Also: feel free to distribute and rework these words without credit.
+
+source: [http://queeranarchism.tumblr.com/post/173458517518/](http://queeranarchism.tumblr.com/post/173458517518/)",93,23,1530142953.0
+y4p3mu,SocialDemocracy,Revolutionary vision and reformist detail work,DependentCarpet,https://www.reddit.com/r/SocialDemocracy/comments/y4p3mu/revolutionary_vision_and_reformist_detail_work/,"As we are in the year 2022, we have seen more than thirty years of Social Democracy drifting away from its own ideology and vision. Blinded by the words of Francis Fukuyama, that the final victory of „liberal democracy“ over Socialism (that had a lot of flaws), must mean the „end of history“ as well as the end of all ideologies alltogether.
+
+Now, in our times we can see quite clearly that these words were a lie, that the belief they associated were blinding lights at the end of the day.
+
+As flawed as the socialist system of the Warsaw Pact and associated states was, it at least constructed a form of counter balance towards the liberal democracies - the latter weren‘t really defined and are still in some way work in progress. It forced the western nations to implement more social policies to avoid conflicts that destroyed the world order following the First World War.
+
+Most Social Democratic parties caught up on this neoliberal bandwagon, which proved to be the most futile attempt to regain power. Instead of criticising the system of Thatcher, Reagan and Kohl, bringing up new and real ideas on the way towards Democratic Socialism, leaders like Blair, Schröder, Klima and others sought to associate themselves with the new ideas of Neoliberalism.
+
+While some thought and still think this was a good idea, their daemonic shadows haunt Social Democracy to this day. We sure have failed to both live up to our own visions as well as to reform the parties in such trying times - rather to work hard for new ideas a lot of us sought to arrange themselves with the new times. It would and still proves deadly to this day.
+
+**Understanding the world in front of us**
+
+A lot has changed since the successes of the 1970s. Portugal and Spain are now established democracies, social policies have a strong impact on our lives, most things improved. But did they? Looking at the slaughter since the 1980s in some nations, I do believe that Social Democratic parties like Labour committed mistakes to keep themselves in power. For instance the (misinterpreted) words of Willy Brandt in 1969 „We want a society that offers more freedom and demands more share of responsibility.“ Brandt probably didn‘t mean the interpretation of „freedom“ associated with NeoLib policies in which freedom is only for the individual alone - that you as an individual can only help yourself. It is inherently flawed as in my view it shows the dark beliefs of Social Darwinism, that society has no worth anymore. 
+
+Freedom sure has a ton of definitions, but the one most striking for me (and the one that makes most sense in terms of Social Democracy) would be the following: as much personal freedom as possible for all without intruding into the freedoms of others. Freedom can not be limitless as it would kill freedom as such outright.
+
+Ironically, Karl Popper (called as one of the greatest liberals of the 20th century) can be read as a Social Democrat/Socialist in a lot of ways. The definition I brought up before mostly draws from his book „The Open Society and its Enemies“. He had his problem with Marxism and it‘s historicist outlook. Allright, I might conccur with that - Marxism surely has its flaws, no one can deny that. 
+
+But it would be cheap and almost foolish to draw ourselves away from the good points Marx brought forth. He never established a real system of how a (fully) Socialist economy could and would work - Lenin did. Marx never outright mentioned how the transition should work - either by violence or reform. Marx biggest flaw was his vagueness, his writing stlye that allowed a ton of interpretations (similar to the Bible). 
+
+But his greatest achievement was to put a vision before that was taken up by so many prominent people since. Everyone drew from it, no matter the state, heritage or gender. That unfettered capitalism can‘t work, that it destroys the fabric of both state and society and would lead to its own deprivation of humanity.
+
+Even Popper said that restricting some freedoms so everyone benefits from it may be necessary. That democracy needs institutions and therefore people/society to work. That an economy needs to be regulated to a certain degree and some parts may need to be put into public hands.
+
+That all isn‘t new - we just lost it. Neoliberalism destroyed the basic foundations of political Liberalism as we know it for the failed belief in „the freer the market, the freer the people“. It launched part of the world back into the times of Marx and Engels, where no regulations existed, children had to work from the age of seven years old. 
+
+That we blinded ourselves to the belief we were all free, but never heard our own shackles until it was too late.
+
+**The question of vision**
+
+Yesterday I was part of the Educational Conference of the SPÖ Upper Austria. There, the heard of the education department held a short presentation of what outlooks we as a SocDem party might have/need to have. He brought forth a simple set of quotes by Bruno Kreisky. One in a letter to Brandt and Palme in 1973 where he mentioned the necessity to change society for the bette as part of the vision of Social Democracy. The other from a speech at the Party Conference in 1978, where probably the most progressive and visionary Party Programme was put to debate. There he said that the questions of the future are there, we just need answers for them - we should be guided by the ideals that we have and look for answers in every place possible. 
+
+To never forget the grand mission of Social Democracy: fighting for a better world, to offer the people of the nations as well as the world a future, where Equality, Freedom, Justice, Solidarity and Democracy are no mere phrases uttered from time to time. Instead them being our daily lived by guiding principles - that there is no suffering, no war, no exploitation.
+
+Sure, reforms are necessary for a myriade of reasons, most are obvious as times change. But the question we need to ask ourselves at first is a very delicate one: can we combine Pragmatism and Ideology? I would answer yes - some would say no. They‘d view Pragmatism, the focus on small daily politics, as the necessity of the 21st century. Most lost the look for the bigger picture, the view on visions and guidelines - that we need to promise a better future that people would believe. We lost that sadly doe to a ton of mistakes, but I am sure and confident that we could bring this back with the younger generations of this society.
+
+Climate Crisis, poverty, inflation, changing industries, the rich bourgeoisie - these are all valid fears. And only with a certain strong belief in ourselves and the mission we carry forth like toches into a dark night we might succeed to overcome them.
+
+**Leftism - more than necessary!**
+
+As mentioned above, the presentation had two quotes of Kreisky included. As he presented them (him being quite the leftie), the head of education said „Today such things and sentences would be considered radical leftism in the SPÖ“.
+
+Which prompted me to say in a short speech to one of the proposals later „Thanks for the reminder on Kreisky, his ideas of vision and how we need to change society for good. You said that these things would be unheard in our party today. Therefore I put myself in solidarity with Kreisky, I am outing myself as a radical leftie“. Some laughter and applause followed. 
+
+I am not ashamed of calling myself a radical leftie in such a regard. I see the necessity to go beyond daily politics and petty prgamatism to view the necessities of tomorrow as good as I can. That is one huge reason why I consider myself as a Democratic Socialist - because Social Democracy lived as it should be was, is and must always be Democratic Socialism. You may disagree wtih it and please do - I don‘t claim to speak the truth nor do any of you. 
+
+Leftism is no bad thing, quite the contrary. „Revolutionäre Kleinarbeit“ (Revolutionary Detail Work) was a short article from a speech that Otto Bauer held in the early 1930s in front of Sociaist Youth members. There he mentioned that Alexander the Great, Caesar and Napoleon may have been great men, but they required and needed the work of millions for them to succeed. Today, the names of the great men remained alive while the millions go unmentioned. 
+
+Bauer says in a bit more complicated words the following: sure we might have great party leaders, but we need you all for our mission to succeed. He didn‘t mention a strong belief in leftist views and visions, but he would imply them. But to look at them critically, not believing it all 100%, to understand them rather than accept them outright. I concurr with Bauer there - he has a valid point.
+
+Leftism now is needed more than ever, after almost 40 years of Social emocratic parties sacrificing themselves to ideas the didn‘t work or did more harm than good - how the anti-democratic right once again rose to power in several states with severe consequences. As an Austrian I saw/still see it first hand. We suffer 10% inflation, work providers don‘t want huge wage increases and several economists fear that higher wages could increase inflation. The working class and middle class loose a lot of their money on it all while a few rich people rnrich themselves even more. 
+
+Now would be a time for us to once again demand high-earner taxes, windfall taxes, to increase the intervention in the markets. In short: to provide a good life for all people, not the few!
+
+**Conclusion and final remarks**
+
+You may think what you want on this topic, some of you might call me crazy - but if that is crazy to you, please look outside of your screen what is happening today. The world won‘t change when you sit in front of your screen all day, it won‘t change by debating every single letter in a defintion, it won‘t change by your amateurish political takes on stuff.
+
+Learn to understand the world outside the internet.
+
+Olof Palme was born rich and lived a life where he could stand beside a factory worker and say „You are my friend, we are equals“, same goes for Kreisky. Brandt was born poor, as was Vranitzky and other Social Democratic leaders. It is easy to speak of leftist values, but to live by them, fight for them with every breath you take is another thing entirely.
+
+With this in mind, I would like to appeal to those that find a purpose in the fight for a better world besides the daily prgamatism, to look for new answers in these trying times.
+
+To not be afraid of the leftist label, to stop the degeneration of Social Democratic ideology for the short success of an „Catch-all-party“. A programme that promises a better future combined with reasoned pragmatism will catch more people than you might think. Revolution being our ambitious visions, reformism the pragmatic style of how we want to reach it!
+
+With this I say: long live the fight for a better and fair world - to one day reach Democratic Socialism!
+
+Long live a visionary and progressive Social Democracy!
+
+Freundschaft und Glück auf!",21,5,1665843421.0
+ub927g,Capitalism,Comedy: billionaires bitchslapping.....,BikkaZz,https://www.reddit.com/r/Capitalism/comments/ub927g/comedy_billionaires_bitchslapping/,"In a tweet on Friday, the Tesla CEO admitted that he asked Gates if he was short-selling shares of the electric carmaker. When investors short a stock, they are betting that the price of the asset will fall.
+
+""I heard from multiple people at TED that Gates still had half billion short against Tesla, which is why I asked him, so it's not exactly top secret,"" Musk said in the tweet.
+
+To which Gates replied: ""Sorry to say I haven't closed it out. I would like to discuss philanthropy possibilities.""
+
+Musk shot back: ""Sorry, I cannot take your philanthropy on climate change seriously when you have a massive short position against Tesla, the company doing the most to solve climate change.""
+
+The New York Times has not reported on Gates' Tesla trades yet, or the text messages referenced in @wholemarsblog's tweet.
+
+Gates went on to add that what Tesla was doing was ""easy stuff, like passenger cars."" Gates emphasized the need to make a greater impact on climate change by tackling other industries.
+
+""We're basically not doing enough on the hard stuff: steel, cement, meat,"" he said at that time. ""And sadly, the things people think about — the electricity, passenger cars — are a third of the problem. So we have to work on the two-thirds.""
+
+""If all you pay attention to is those short-term metrics, not the green premiums across the board, then you miss out on what is the longest lead time, which is the hard stuff.""
+
+A spokesperson for Bill Gates was not immediately available for comment....
+
+Personally Megalomaniac #1 should also explain what’s exactly what with those potatoes 🥔 he’s farming......🧐",2,0,1650848630.0
+kbc83b,GreenParty,"""We're Green Inside & Outside"" ~ Pittsburgh Green Left",faithslayer202,https://www.reddit.com/r/GreenParty/comments/kbc83b/were_green_inside_outside_pittsburgh_green_left/,"A classic of Green Party history, the ""Avocado Declaration"" by Peter Camejo. Some describe themselves as ""watermelons"": ""green on outside, red on inside"", meant to evoke more of a Marxist attitude. The [Avocado Declaration](https://www.marxists.org/archive/camejo/2004/avocadodeclaration.htm) states we're ""green inside & out""
+
+&#x200B;
+
+The Avocado attitude comes from the idea that Green socialism is its own tendency, different from other forms of socialism. Particularly when you look at influences like Murray Bookchin's social ecology, it's easy to see a different praxis than that suggested by Marxist orgs. Let's look at a few of the most standout parts of the Avocado Declaration and see how much applies to today still. (The original was written in early 2004).
+
+&#x200B;
+
+""History shows that the Democrats and Republicans are not two counter-posed forces but rather complementary halves of a single two-party system"" Camejo identifies the two parties taking on the same economic policy in about 1872; the two cooperate to prevent mass movements. ""Since the Civil War, without exception, the Democratic Party has opposed all mass struggles for democracy and social justice."" Camejo points out how Democrats have opposed all movements for civil & political rights, but revisionism pretends them to be ""champions"" of the people. ""When social justice, peace, or civil rights movements become massive in scale, ..., the Democratic Party begins to shift and presents itself as a supposed ally, always seeking to co-opt the movement, demobilize its forces, and block its development...""
+
+&#x200B;
+
+The GOP ""argues ideologically for policies benefiting the corporate rulers."" Democrats are different, ""It acts as a “broker” negotiating and selling influence among broad layers of the people to support the objectives of corporate rule.""
+
+&#x200B;
+
+""The Democratic Party’s core group of elected officials is rooted in careerists seeking self-promotion by offering to the corporate rulers their ability to control and deliver mass support. And to the people they offer some concessions..."" Careerists in the Democratic Party are those that learn to manipulate the masses with leftist-sounding language that co-opts people toward corporate positions while pretending to be opposition. ""One important value of the Democratic Party to the corporate world is that it makes the Republican Party possible through the maintenance of stability essential for business as usual by preventing a genuine mass opposition from developing.""
+
+&#x200B;
+
+""The Democratic Party preaches defeatism to the most oppressed and exploited. Nothing can be expected, nothing is possible but what exists, and what continues is betrayal of what could be with the argument of lesser evil. It’s the Republicans or us. Nothing else is possible."" Camejo focuses a bit on ""the rule of law"" which is a little confusing to me. While making good points about the aftermath of 9/11 and attacks on freedom, US Constitutional law was never particularly democratic to begin with so I don't quite see ""rule of law"" being so important. Camejo seems to be equating the ""rule of law"" with democracy, which isn't quite the same. But certainly we want democratic decision making respected, rather than authoritarian oligarchic rule. Camejo goes on to point out how the Democratic Party was overwhelmingly in favor of the Republican-proposed changes and attacks on democracy. Even the ""progressives"" voted for it, much as we're seeing today with new progressives like A.O.C. continuing to vote for imperialism.
+
+&#x200B;
+
+""The Democratic Party allows its lower level representatives to present themselves as opposed to the war. Some of its leaders have begun to take on an appearance of disagreeing with “how” the policies of Bush are being implemented."" Camejo essentially argues that the Democratic Party tolerates and even wants a few dissenters to keep up appearances, as long as the oligarchy knows it continues to maintain power in votes and actual decision making. ""Their political message is simple and clear: “No voice truly critical of the platform of the Republicans may be permitted; only the Democrats must appear as ‘opponents’ to the Republicans.”"" Democrats must have a monopoly on ""resistance"" so it can control the message. ""They have no objection to rightist, pro-war third-party candidates entering the race and promoting their views. They only oppose a voice for peace and the rule of law, like that of Ralph Nader in 2000."" This really hits home in 2020. Democrats worked hard to throw Howie Hawkins, the Green nominee, off the ballot in many states. Camejo notes that the purpose is specifically to prevent democracy & peace candidates. ""Never in the history of the United States has a magazine claiming to favor democracy run a front page article calling on an individual to not run for president""
+
+&#x200B;
+
+Younger folks don't realize how popular Nader was, and how much corporate media had to smear him to stop him. ""For the Green Party there is nothing more important or effective long-term and short-term in stopping Bush than to expose how the corporate interests use their two-party system and the role of the Democrats in that system."" Camejo spends a few paragraphs discussing all the Democrat crossover to support Republicans and a corporate agenda within the Dems, and concludes that for Greens one important objective is exposing the corporate control of both parties and the system as a whole. Next Camejo comments on how the Democrats act as a ""self-correcting mechanism"" to upkeep two-party rule. ""Being Democrats they become part of a system that will have them removed if they do not follow the rules of support when corporate America insists.""
+
+&#x200B;
+
+""To rise in the Democratic Party there is a process that leads to compliant people unable to question, who remain silent before betrayals or criminal acts."" As mentioned earlier, the top ranks of the Democratic Party become full of careerists that learn to cater to corporations. More troublingly, this means anyone that plans a ""career"" in politics must ultimately fall in line or be kicked out of the party, the system, and the career. One must find a new job. Be wary of folks that seek a career in Democratic politics. ""Cynthia McKinney is an example of a Democrat who refused to go along, stepped across the line within the Democratic Party and was driven out of office by the combined efforts of both the Democratic and Republican parties and the corporate media."" McKinney actually became the Green presidential nominee in 2008, although did not receive a particularly high vote total. By this point ""Obamamania"" was sweeping the progressive movement. ""The self-purging process of the Democratic Party is an ongoing balance between allowing, even welcoming, voices of opposition in order to co-opt, but not allowing those voices to form a serious challenge..."" A callback to earlier where Camejo argued Dems \*like\* some dissent. A small amount of controlled dissent in a controlled primary allows the Democratic party to continue to pretend to be on the side of the people while consciously support & voting for the same corporate agenda as Republicans. ""The Democratic Party should be seen historically as the most successful political party in the history of the world in terms of maintaining stability for rule by the privileged few."" Camejo hits the nail on the head here. The Democrats are very successful at squashing dissent.
+
+&#x200B;
+
+""The Democratic Party through trickery co-opted the powerful and massive rise of the Populist movement at the end of the 19th century precisely using the same “lesser evil” arguments now presented against the Green Party."" This refers to Democrat efforts against unionizing and independent politics like the Socialist Party in the late 1800's. Democrats ordered state police & private armies (e.g., the Pinkertons) to attack union strongholds in places like Pittsburgh. The Socialist Party was rapidly growing and winning seats at all levels of government. S.P.U.S.A. had thousands of municipal officials, many state legislators, and even a couple of members of Congress at its height. Democrats colluded with Republicans to stop their growth. One, Dems joined Rs in creating Espionage/Sedition Acts, and jailed Socialist Party leaders for speaking out against war. They also collaborated to make the complex system of ballot access we see today, purposely designed to make independent politics as difficult as possible. ""They \[the Democratic Party\] blocked the formation of a mass Labor Party when the union movement rose in the 1930's."" As the Socialist Party was weakened, other attempts were made at Labor Parties and People's Parties, but they all failed as Democrats co-opted the movement. The biggest slap in the face was F.D.R. accepting the New Deal, which was a watered-down and mild version of the Socialist Party platform that was gaining traction. As F.D.R. put it, he ""saved capitalism"" by taking these steps to squash dissent and independent movements. ""They derailed, co-opted and dismantled the powerful civil rights movement, Vietnam anti-war movement and women’s liberation movement. They have even succeeded in establishing popular myths that they were once for labor, for civil rights and for peace."" While dismantling the radical messaging of these movements -- always much more about democracy and socialism than we read about in today's history books -- Democrats also like to claim that they stand FOR these things! Historically that wasn't exactly true. Democrats have never been leaders on any of these issues, and have often actually been obstructionists. Civil rights leaders including Martin Luther King complained about them. Unions and the environmental movement also saw opposition to their policies. M.L.K. famously wrote that the ""white moderate"" that wanted to ""set a timetable on another man's freedom"" was extremely frustrating to him and one of his biggest hurdles to overcome in the civil rights struggle.
+
+&#x200B;
+
+""If a massive opposition develops, if the Greens begin to win races and its following grows, the corporations will put more money behind the Democrats, the media will become more sympathetic to the Democrats, and promote its more “progressive” voices."" Camejo points to media. From the low point after Nader's 2000 run, Greens built up a new movement particularly with Jill Stein that was beginning to reach back toward Nader's numbers. Those growth numbers must have been making Democrats nervous. While Stein got some mild corporate media coverage in 2016 such as a CNN Town Hall, the 2020 Green candidate Howie Hawkins was completely locked out of all media while they focused on Bernie & A.O.C. As Camejo predicted, Democrats will ramp up media against perceived threats. ""The two-party system is a self-correcting mechanism that shifts back and forth between the two parties, and within different wings of those parties, to maintain corporate political control."" Camejo recognizing the surprising adaptability of this two-party arrangement. ""Loyalty to the two-party system is inculcated in the educational system, and our electoral laws are rigged to discriminate against third parties."" Folks that grow up and learn ""activism"" from the system learn loyalty to the two party system & grow to expect third party losses.
+
+&#x200B;
+
+“The assumption that what currently exists must necessarily exist is the acid that corrodes all visionary thinking.” \~ Murray Bookchin
+
+&#x200B;
+
+Camejo wraps up his essay by focusing on the ""lesser evil"" argument that is taught to today's activists. ""The call for a “lesser evil” is what makes possible the greater evil."" Those ""who say Nader should not run, that the Greens should consider withdrawing, that the Greens should not campaign in states where the vote is close are, unconsciously, actually helping Bush’s re-election by weakening the development of an opposition political movement..."" Camejo's comment here was actually directed at a number of Greens that took Nader's loss and subsequent labeling as a ""spoiler"" to heart. Afraid to meet the same fate as Nader, some Greens began arguing Greens should not run a presidential campaign, or campaign in ""safe states"". Sadly, the ""spoiler"" label did not exist much before 2000 (historically, it wasn't that weird at all for multiple candidates to run for president and even win electoral votes), but a few Greens helped make that pejorative stick by embracing it instead of fighting it. This disagreement is pretty well-documented in the book ""The Green Party Strategy Debate"" edited by Howie Hawkins. Hawkins advocated proudly running in every state, while some others did not. Most Greens wanted Nader to run again, but there was a vocal minority opposed. Long story short, Nader did not receive the nomination in 2004, instead a relative unknown David Cobb was the nominee. Cobb received only a fraction of Nader's votes, sadly helping both the ""spoiler"" label stick as well as giving a sense that Greens weren't growing. Ironically, folks working on the Bernie Sanders campaign have reported that Bernie desperately wanted to avoid Nader's fate, and that prompted him to avoid running as an independent. Similar to Cobb, he's sadly likely to fade into history as a result of not standing up.
+
+&#x200B;
+
+""Nothing is more important than the appearance of candidates and mass actions that tell the full truth, that call for the rule of law, respect for the Bill of Rights, and speak out for peace and social justice."" Returning to Camejo's point, it's clear we must run everywhere. ""There is nothing more threatening to the rule of the corporations than the consolidation of a party of hundreds of thousands of citizens, especially young people, that fearlessly tell the truth to the American people."" Youth are the future! Shameless plug for Young EcoSocialists. ""Only such a movement can in time become millions, then tens of millions and eventually win. But it is also the best strategy for the short term, to force a shift away from the direction being pursued today.""
+
+&#x200B;
+
+Lastly, Camejo comments on this perceived tension of short-term and long-term strategy. ""The idea there is a conflict between the short term and the long term is a cover for capitulation. It has been the endless argument of the Democrats against challenges to their policies.""
+
+&#x200B;
+
+""When independent movements appear they call on people to enter the Democratic Party and work from within. There is no time to go outside the two-party framework, they argue."" We see this every year when Democrats tell us ""This isn't the year to vote Green!"". When will it be? And here Camejo points out a huge hole in these arguments: ""This argument was made 100 years ago, 50 years ago, 25 years ago and, of course remains with us today. Millions have agreed there’s no time to do the right thing."" This isn't a temporary ""strategy"" but an excuse. To the Democratic Party establishment & their political supporters that benefit from the Neo-liberal system, there will NEVER be a ""right time"" to organize independently because they simply DON'T WANT IT. They like the system how it is, their job is to stop YOU from changing it.
+
+&#x200B;
+
+In 2020, we couldn't because Trump.
+
+In 2018, we couldn't because Dems need to win the House.
+
+In 2016, we couldn't because Trump again.
+
+In 2014, we couldn't because Dems need the House.
+
+In 2012, we couldn't because you're not going to oppose Obama are you??
+
+See the pattern?
+
+&#x200B;
+
+This strategy has been an utter failure at preventing the advance of right-wing fascism, because it was never meant to prevent fascism, only to keep winning corporations more control and more profits. Both parties continue to OPENLY move more right-wing as a result. ""As a result the number of workers in unions has dropped from 37 per cent of the work force to 12 per cent as they politically subordinated themselves to the pro-corporate Democratic Party."" As activists worked ""within"", they lost their real independent political power. ""Rather than success, these movements have found the Democratic Party to be the burial ground for mass movements, and of third-party efforts that sought to defend the interest of the people throughout American history.""
+
+&#x200B;
+
+""Instead they should join with the Greens in a battle for democracy in the same manner in which many progressive Democrats in San Francisco rejected their party’s nomination for mayor and joined with the Greens..."" Progressive Dems need to join Greens, not the other way around. ""We need to suggest to “progressive” Democrats that they should concentrate their attacks on their leadership’s support for George Bush’s policies, and not on the Greens for telling the truth and actually fighting for the ideals many of these Democrats claim to hold."" Notice how many of these quotes could easily apply to today if you just substitute in the appropriate names. ""Progressives"" should concentrate on Trump's policies, not kicking Greens off the ballot for telling the truth and actually fighting for the ideals they claim to hold. ""The year 2004 will be a critical year for the Greens. The campaign of the Democrats will be powerful and to some extent effective. Some will abandon us but others will be attracted by our courage and our principled stance."" Again, substitute in 2020 or 2024 and still applies.
+
+&#x200B;
+
+""if we do not stand up..., fight them and defend our right to exist, to have our voice heard, to run candidates that expose the two-party system and the hypocrisy of the Democratic Party and its complicity with the Republicans, we will suffer the greatest lost of all."" This applies more than ever as climate change & social issues only grow more urgent. The change we need to make comes from establishing a truly democratic society, which means creating something new outside of today's system. The Green Party must be a step in that direction. We cannot believe in ourselves and rally enough people around democracy if we are afraid to stand up on these important issues and declare our independent from corporations the capitalist profit motive. We need a Green Party, because Greens are us. We need ourselves to be heroes. I didn't mean for this to be such a long thread; was actually going to write a blog post later and just drop a few comments but got really into it as I was reading along again for the first time in a while.
+
+&#x200B;
+
+Check out the full Declaration: [https://www.marxists.org/archive/camejo/2004/avocadodeclaration.htm](https://www.marxists.org/archive/camejo/2004/avocadodeclaration.htm)",5,0,1607723643.0
+96o1ac,Anarchism,Global Warming and Anarchism,okpmem,https://www.reddit.com/r/Anarchism/comments/96o1ac/global_warming_and_anarchism/,"It's not crazy to think that we have only a couple decades, possibly even less until the earth enters a tipping point where organized human life won't be possible in the near future. Chomsky's most recent talks were about just this. Now this idea (formally Abrupt climate change) is now hitting mainstream media as ""Hothouse Earth"".   
+
+
+My question to all of you folks is this, where does anarchism fit into such a future? Has this possibility changed people's goals and actions? Personally for me, a utopian socialist paradise seems completely impossible now.  
+",10,9,1534065696.0
+y9ckv4,Anarchism,Does ceasing ascribing moral value to pain/injury/disease/disability make it easier for you to adapt to those things?,Procioniunlimited,https://www.reddit.com/r/Anarchism/comments/y9ckv4/does_ceasing_ascribing_moral_value_to/,Wondering about others' experience with shedding morality in this regard... I have some thoughts of my own.,11,7,1666306316.0
+95zgz5,Libertarian,Do you believe that Anthropogenic Climate Change is real?,spotonron,https://www.reddit.com/r/Libertarian/comments/95zgz5/do_you_believe_that_anthropogenic_climate_change/,It seems that more right wingers are skeptical of climate change nowadays. I am just wondering what you guys think even if it's not exactly 'on-topic' with libertarianism. ,34,246,1533842113.0
+we3v6l,socialism,Climate change,Bi_Leftist,https://www.reddit.com/r/socialism/comments/we3v6l/climate_change/,Capitalism is in my opinion the sole reason for climate change.The plastics that are sold day by day are destroying the environment and these companies do not give a F.,125,22,1659420230.0
