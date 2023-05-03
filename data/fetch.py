@@ -59,20 +59,22 @@ def get_posts_from_glossaries(glossary):
 
 
 
-# epa_data = get_posts_from_glossaries(epa_glossary)
-# print(epa_data.head())
-# print(epa_data.shape)
-# print(epa_data.shape)
-# nasa_data = get_posts_from_glossaries(nasa_glossary)
-# print(nasa_data.head())
-# print(nasa_data.shape)
-# davis_data = get_posts_from_glossaries(davis_glossary)
-# print(davis_data.head())
-# print(davis_data.shape)
+epa_data = get_posts_from_glossaries(epa_glossary)
+print(epa_data.shape)
+nasa_data = get_posts_from_glossaries(nasa_glossary)
+print(nasa_data.shape)
+davis_data = get_posts_from_glossaries(davis_glossary)
+print(davis_data.shape)
 
-# all_data = pd.concat([epa_data, nasa_data, davis_data])
+all_data = pd.concat([epa_data, nasa_data, davis_data])
+print(all_data.shape)
+
+
+all_data.to_csv("data/raw_data/raw_politcal_posts_three.csv", index=False)
+
 
 # # get only the unique rows that have a unique entry for the id column
+
 
 # all_data = all_data.drop_duplicates(subset=['id'])
 
@@ -80,8 +82,6 @@ def get_posts_from_glossaries(glossary):
 # print(all_data.head())
 
 # # save the data to a csv file
-
-# all_data.to_csv("data/raw_data/raw_politcal_posts_two.csv", index=False)
 
 
 ############ Getting posts from one posts ############
@@ -94,7 +94,7 @@ def get_all_posts(subred):
     subreddit = reddit.subreddit(subred)
 
     # Change to hot, top, new
-    posts = subreddit.new(limit = None)
+    posts = subreddit.top(limitlimit = None)
     
     posts_dict = {"title": [], "selftext": [],
                 "id": [], "score": [], "upvote_ratio": [],
@@ -144,9 +144,8 @@ def get_all_posts(subred):
 
 
 
-climate_science = get_all_posts("climate_science")
-print(climate_science.shape)
-climate_science.to_csv("data/raw_data/climate_science_three.csv", index=False)
+# climate_science = get_all_posts("climate_science")
+# climate_science.to_csv("data/raw_data/climate_science_two.csv", index=False)
 
 
 
