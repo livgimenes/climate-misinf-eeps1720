@@ -6,31 +6,15 @@ import nltk
 import praw
 import asyncio
 import datetime
+from psaw import PushshiftAPI
 
 
 
-# You might have to do pip install emoji
-import emoji
-
-
-
-#### Requesting a token ####
-# NOTE: This requests a token, which should work for more than one call, for security reasons the password is not on display, but if you need to request ask Livia
+#### Info for fetching  ####
 
 username = "project-user"
-password = ""
 app_client_id = "dyczxLp57fVfQrBb4epVQA"
 app_secret = "CEpQfSvjR0aJ2-0deD7xyEvIv4uF5A"
-
-client_auth = requests.auth.HTTPBasicAuth(app_client_id, app_secret)
-post_data = {"grant_type": "password", "username": username, "password": password}
-headers = {"User-Agent": "ChangeMeClient/0.1 by YourUsername"}
-
-# response = requests.post("https://www.reddit.com/api/v1/access_token", auth=client_auth, data=post_data, headers=headers)
-# TOKEN = response.json()['access_token']
-
-#### Response received ####
-
 
 ###### Getting the main corpus of data #####
 
@@ -100,39 +84,83 @@ def get_posts_from_glossaries(glossary):
 # all_data.to_csv("data/raw_data/raw_politcal_posts_two.csv", index=False)
 
 
+############ Getting posts from one posts ############
 
-##### Getting mock truth and fake labels #####
 
-def get_posts_from_one(glossary,subred):
-    unclean_keywords, clean_keywords = generate_glossary_types(glossary)
-    matching_posts = []
+
+
+def get_all_posts(subred):
+
     subreddit = reddit.subreddit(subred)
-    found_count = 0
-    for post in subreddit.search(query=' OR '.join(unclean_keywords + clean_keywords), time_filter='all'):
-        print(post.title)
-        found_count += 1
-        matching_posts.append([post.id, post.subreddit.display_name, post.title, post.author.name, post.url, post.selftext, post.score, post.num_comments, post.created_utc])
 
-    # Convert matching_posts list into a pandas dataframe
-    cols = ['id', 'subreddit', 'title', 'author', 'url', 'selftext', 'score', 'num_comments', 'created_utc']
-    matching_posts_df = pd.DataFrame(matching_posts, columns=cols)
+    # Scraping the top posts of all time
+    posts = subreddit.top(time_filter="all",limit = None)
     
-    return matching_posts_df
+    posts_dict = {"title": [], "selftext": [],
+                "id": [], "score": [], "upvote_ratio": [],
+                "num_comments": [],"created_utc":[]
+                }
 
-skeptics_data = get_posts_from_one(epa_glossary,'climateskeptics')
-print(skeptics_data.head())
-print(skeptics_data.shape)
+    ## Starts at 2018-2023
+    start_date = '01-01-15 00:00:00'
+    start_date = datetime.datetime.strptime(start_date, '%d-%m-%y %H:%M:%S').timestamp()
+
+    for post in posts:
+        # Date of each posts' creation
+        date = post.created_utc
+        if date > start_date:
+            # Title of each post
+            posts_dict["title"].append(post.title)
+        
+            # Text inside a post
+            posts_dict["selftext"].append(post.selftext)
+        
+            # Unique ID of each post
+            posts_dict["id"].append(post.id)
+        
+            # The score of a post
+            posts_dict["score"].append(post.score)
+            
+            # Upvote Ratio of a post
+            posts_dict["upvote_ratio"].append(post.upvote_ratio)
+        
+            # Total number of comments inside the post
+            posts_dict["num_comments"].append(post.num_comments)
+            
+            # Date the post was Created
+            posts_dict["created_utc"].append(post.created_utc)
+            
+        
+          
+    # Saving the data in a pandas dataframe
+    all_posts = pd.DataFrame(posts_dict)
+
+    return all_posts
+
+climate_skeptics = get_all_posts("climateskeptics")
+climate_skeptics.to_csv("data/raw_data/climate_skeptics_three.csv", index=False)
 
 
-scientists_data = get_posts_from_one(epa_glossary,'climate_science')
-print(scientists_data.head())
-print(scientists_data.shape)
 
 
-#save 
-skeptics_data.to_csv("data/raw_data/skeptics_data.csv", index=False)
-scientists_data.to_csv("data/raw_data/scientists_data.csv", index=False)
-#### Requesting data ####
+
+#climate_skeptics = climate_skeptics[climate_skeptics['selftext']]
+
+# climate_science = get_all_posts("climate_science")
+# print("pre non empty data",climate_science.shape)
+# #climate_science = climate_science[climate_science['selftext'].str.len() > 1]
+# print("post non empty data",climate_science.shape)
+
+
+
+# climate_skeptics.to_csv("data/raw_data/climate_skeptics.csv", index=False)
+# climate_science.to_csv("data/raw_data/climate_science.csv", index=False)
+
+
+
+
+
+
 
 
 
