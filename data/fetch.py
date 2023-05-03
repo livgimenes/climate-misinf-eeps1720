@@ -93,8 +93,8 @@ def get_all_posts(subred):
 
     subreddit = reddit.subreddit(subred)
 
-    # Scraping the top posts of all time
-    posts = subreddit.top(time_filter="all",limit = None)
+    # Change to hot, top, new
+    posts = subreddit.new(limit = None)
     
     posts_dict = {"title": [], "selftext": [],
                 "id": [], "score": [], "upvote_ratio": [],
@@ -137,24 +137,16 @@ def get_all_posts(subred):
 
     return all_posts
 
-climate_skeptics = get_all_posts("climateskeptics")
-climate_skeptics.to_csv("data/raw_data/climate_skeptics_three.csv", index=False)
+
+# uncomment 
+#climate_skeptics = get_all_posts("climateskeptics")
+#climate_skeptics.to_csv("data/raw_data/climate_skeptics_three.csv", index=False)
 
 
 
-
-
-#climate_skeptics = climate_skeptics[climate_skeptics['selftext']]
-
-# climate_science = get_all_posts("climate_science")
-# print("pre non empty data",climate_science.shape)
-# #climate_science = climate_science[climate_science['selftext'].str.len() > 1]
-# print("post non empty data",climate_science.shape)
-
-
-
-# climate_skeptics.to_csv("data/raw_data/climate_skeptics.csv", index=False)
-# climate_science.to_csv("data/raw_data/climate_science.csv", index=False)
+climate_science = get_all_posts("climate_science")
+print(climate_science.shape)
+climate_science.to_csv("data/raw_data/climate_science_three.csv", index=False)
 
 
 
