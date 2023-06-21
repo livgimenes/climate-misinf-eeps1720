@@ -13,8 +13,8 @@ from psaw import PushshiftAPI
 #### Info for fetching  ####
 
 username = "project-user"
-app_client_id = "dyczxLp57fVfQrBb4epVQA"
-app_secret = "CEpQfSvjR0aJ2-0deD7xyEvIv4uF5A"
+app_client_id = ""
+app_secret = ""
 
 ###### Getting the main corpus of data #####
 
@@ -73,17 +73,6 @@ print(all_data.shape)
 all_data.to_csv("data/raw_data/raw_politcal_posts_three.csv", index=False)
 
 
-# # get only the unique rows that have a unique entry for the id column
-
-
-# all_data = all_data.drop_duplicates(subset=['id'])
-
-# print(all_data.shape)
-# print(all_data.head())
-
-# # save the data to a csv file
-
-
 ############ Getting posts from one posts ############
 
 
@@ -139,18 +128,13 @@ def get_all_posts(subred):
 
 
 # uncomment 
-#climate_skeptics = get_all_posts("climateskeptics")
-#climate_skeptics.to_csv("data/raw_data/climate_skeptics_three.csv", index=False)
+climate_skeptics = get_all_posts("climateskeptics")
+climate_skeptics.to_csv("data/raw_data/climate_skeptics_three.csv", index=False)
 
 
 
-# climate_science = get_all_posts("climate_science")
-# climate_science.to_csv("data/raw_data/climate_science_two.csv", index=False)
-
-
-
-
-
+climate_science = get_all_posts("climate_science")
+climate_science.to_csv("data/raw_data/climate_science_two.csv", index=False)
 
 
 
